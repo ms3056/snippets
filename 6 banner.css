@@ -1,0 +1,9 @@
+/*div.notice-container{
+    width: 500px;
+    height: 500px;
+}*/
+
+div.notice {
+    font-size: 25px;
+/*    font-family: MedievalSharp;*/
+}

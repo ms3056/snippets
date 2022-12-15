@@ -1,0 +1,16 @@
+/* Sci-Fi */
+.tag[href^="#Sci-Fi"] {
+  background-color: blue !important;
+  color: orange !important;
+}
+.cm-s-obsidian span.cm-hashtag.cm-tag-Sci-Fi {
+  background-color: blue;!important;
+  color: lightblue; !important;
+}
+
+/*.tag:hover,
+.cm-s-obsidian span.cm-hashtag:hover
+{
+  background-color: red;
+  color: lightpink;
+}*/

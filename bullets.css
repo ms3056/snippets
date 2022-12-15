@@ -1,0 +1,100 @@
+:root {
+/*  --bullet-new-color: Orange; */
+ --bullet-new-color: rgb(147.89, 166.87, 11.125);
+}
+
+.cm-list-1 {
+    padding-left: 4px;
+}
+
+.cm-list-2 {
+    padding-left: 4px;
+}
+
+.cm-list-3 {
+    padding-left: 4px;
+}
+
+.cm-list-4 {
+    padding-left: 4px;
+}
+
+.cm-list-5 {
+    padding-left: 4px;
+}
+
+.cm-list-6 {
+    padding-left: 4px;
+}
+
+.cm-indent::before { 
+    color: red;
+}
+
+
+.markdown-source-view.mod-cm6 .HyperMD-list-line-1 .list-bullet:after {
+/* Bullet */
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: var(--color-accent-1);
+    border-width: 2px;
+    background-color: var(--color-accent);
+} 
+
+.markdown-source-view.mod-cm6 .HyperMD-list-line-2 .list-bullet:after {
+/* Hollow Bullet */
+    height: 4px;
+    width: 4px;
+    background-color: Transparent;
+    border-color: var(--color-accent-2);
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 2px;
+} 
+
+.markdown-source-view.mod-cm6 .HyperMD-list-line-3 .list-bullet:after {
+/* Dash */
+    height: 1px;
+    width: 7px;
+    border-radius: 0%;
+    background-color: var(--color-accent-1);
+} 
+
+
+
+.markdown-source-view.mod-cm6 .HyperMD-list-line-4 .list-bullet:after {
+/* Solid Square */
+    height: 5px;
+    width: 5px;
+    border-radius: 25%;
+    background-color: var(--bullet-new-color);
+} 
+
+.markdown-source-view.mod-cm6 .HyperMD-list-line-5 .list-bullet:after {
+/* Dash */
+    height: 1px;
+    width: 7px;
+    border-radius: 0%;
+    background-color: var(--bullet-new-color);
+} 
+
+.markdown-source-view.mod-cm6 .HyperMD-list-line-6 .list-bullet:after {
+/* Hollow Square */
+    height: 4px;
+    width: 4px;
+    background-color: Transparent;
+    border-color: var(--bullet-new-color);
+    border-style: solid;
+    border-radius: 0%;
+    border-width: 1px;
+} 
+
+.markdown-source-view.mod-cm6 .HyperMD-list-line-7 .list-bullet:after {
+/* Small Bullet */
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    background-color: var(--bullet-new-color);
+} 

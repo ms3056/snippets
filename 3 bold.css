@@ -1,0 +1,25 @@
+
+/* change color of bold text */
+/*strong, .cm-strong {
+    color: var(--color-green) !important;
+}*/
+
+/* Change font of code blocks */
+.cm-s-obsidian .HyperMD-codeblock {
+    font-family: "MonoLisa";
+    font-feature-settings: "frac" 1,"calt" 1, "liga" 1, "ss01" 1, "ss02" 1, "ss03" 0, "ss05" 1, "ss06" 0, "zero" !important;
+}
+
+/* Change font and color of iltalic text */
+em, .cm-em {
+    /*color: var(--color-blue);*/
+    font-family: "MonoLisa" !important;
+    /*font-weight: 400;*/
+    font-style: italic !important;
+    font-feature-settings: "frac" 1,"calt" 1, "liga" 1, "ss01" 1, "ss02" 1, "ss03" 0, "ss05" 1, "ss06" 0, "zero" !important;
+}
+
+/* Change the position of the checkboxes */
+/*.mod-cm6 .HyperMD-task-line[data-task] .task-list-item-checkbox {
+   margin: -4px 2px -2px -2px !important;
+}*/

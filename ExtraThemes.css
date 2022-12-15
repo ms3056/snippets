@@ -1,0 +1,159 @@
+/* @settings
+name: AnuPpuccin Extra Themes
+id: anuppuccin-extra-themes
+settings:
+  - 
+    id: anuppuccin-extra
+    title: Dark theme flavor
+    description: Select your preferred dark mode flavor
+    type: class-select
+    allowEmpty: true
+    default: ctp-primary-dark
+    options:
+    -
+            label: Primary
+            value: ctp-primary-dark
+    -
+            label: Blues
+            value: ctp-blues-dark
+    -
+            label: Reds
+            value: ctp-reds-dark
+*/
+.style-settings-heading[data-id=anuppuccin-extra-themes] .setting-item-name, .style-settings-heading[data-id=anuppuccin-extra-themes] .setting-item-name {
+    color: var(--color-accent);
+}
+
+.inline-title {
+  color: var(--color-accent);
+  filter: brightness(0.8) hue-rotate(45deg);
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-primary-dark {
+  --ctp-rosewater: 246, 206, 182;
+/* rgb(246, 206, 182)*/
+  --ctp-flamingo: 239, 195, 217;
+/* rgb(239, 195, 217)*/
+  --ctp-pink: 229, 179, 230;
+/* rgb(229, 179, 230) */
+  --ctp-mauve: 159, 120, 221;
+/* rgb(159, 120, 221) */
+  --ctp-red: 219, 96, 87;
+/* rgb(219, 96, 87) */
+  --ctp-maroon: 228, 135, 129;
+/* rgb(228, 135, 129) */
+  --ctp-peach: 246, 118, 44;
+/* rgb(246, 118, 44) */
+  --ctp-yellow: 235, 196, 0;
+/* rgb(235, 196, 0) */
+  --ctp-green: 56, 178, 125;
+/* rgb(56, 178, 125) */
+  --ctp-teal: 57, 208, 188;
+/* rgb(57, 208, 188) */
+  --ctp-sky: 77, 209, 213;
+/* rgb(77, 209, 213) */
+  --ctp-sapphire: 77, 182, 213;
+/* rgb(77, 182, 213) */
+  --ctp-blue: 77, 173, 213;
+/* rgb(77, 173, 213) */
+  --ctp-lavender: 222, 186, 232;
+/* rgb(222, 186, 232) */
+  --ctp-text: 230, 207, 179;
+/* rgb(230, 207, 179) */
+  --ctp-subtext1: 176, 160, 141;
+/* rgb(176, 160, 141) */
+  --ctp-subtext0: 171, 145, 109;
+/* rgb(171, 145, 109) */
+  --ctp-overlay2: 145, 121, 89;
+/* rgb(145, 121, 89) */
+  --ctp-overlay1: 120, 100, 74;
+/* rgb(120, 100, 74) */
+  --ctp-overlay0: 95, 79, 58;
+/* rgb(95, 79, 58) */
+  --ctp-surface2: 93, 78, 60;
+/* rgb(93, 78, 60) */
+  --ctp-surface1: 61, 52, 41;
+/* rgb(61, 52, 41) */
+  --ctp-surface0: 52, 43, 35;
+/* rgb(52, 43, 35) */
+  --ctp-base: 44, 38, 33;
+/* rgb(44, 38, 33) */
+  --ctp-mantle: 38, 33, 28;
+/* rgb(38, 33, 28) */
+  --ctp-crust: 35, 30, 26;
+/* rgb(35, 30, 26) */
+
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-blues-dark {
+  --ctp-rosewater: 237, 174, 192;
+/* rgb(237, 174, 192)*/
+  --ctp-flamingo: 252, 142, 172;
+/* rgb(252, 142, 172)*/
+  --ctp-pink: 229, 179, 230;
+/* rgb(255, 105, 180) */
+  --ctp-mauve: 224, 176, 255;
+/* rgb(224, 176, 255) */
+  --ctp-red: 200, 46, 77; /* filename */
+/* rgb(200, 46, 77) */
+  --ctp-maroon: 128, 0, 0;
+/* rgb(128, 0, 0) */
+  --ctp-peach: 255, 229, 180;
+/* rgb(255, 229, 180) */
+  --ctp-yellow: 235, 196, 0;
+/* rgb(235, 196, 0) */
+  --ctp-green: 56, 178, 125;
+/* rgb(56, 178, 125) */
+  --ctp-teal: 57, 208, 188;
+/* rgb(57, 208, 188) */
+  --ctp-sky: 77, 209, 213;
+/* rgb(77, 209, 213) */
+  --ctp-sapphire: 77, 182, 213;
+/* rgb(77, 182, 213) */
+  --ctp-blue: 77, 173, 213;
+/* rgb(77, 173, 213) */
+  --ctp-lavender: 222, 186, 232;
+/* rgb(222, 186, 232) */
+  --ctp-text: 204, 230, 255; /* main text */
+/* rgb(204, 230, 255) */
+  --ctp-subtext1: 4, 94, 176;
+/* rgb(4, 94, 176) */
+  --ctp-subtext0: 5, 78, 166;
+/* rgb(5, 78, 166) */
+  --ctp-overlay2: 60, 96, 158; /* dark calendar text */
+/* rgb(60, 96, 158) */
+  --ctp-overlay1: 7, 50, 148;
+/* rgb(7, 50, 148) */
+  --ctp-overlay0: 9, 37, 140;
+/* rgb(9, 37, 140) */
+  --ctp-surface2: 8, 25, 132;
+/* rgb(8, 25, 132) */
+  --ctp-surface1: 2, 0, 16; /* seems unused */
+/* rgb(2, 0, 36) */
+  --ctp-surface0: 2, 40, 70; /* lines and borders */
+/* rgb(2, 40, 70) */
+  --ctp-base: 2, 0, 16; /* main background */
+/* rgb(2, 0, 36) */
+  --ctp-mantle: 2, 0, 16; /* sidebar background */
+/* rgb(2, 0, 36) */
+  --ctp-crust: 20, 40, 90; /* shadows, popups */
+/* rgb(20, 40, 90) */
+
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-reds-dark {
+  --ctp-red: 200, 5, 5; /* filename */
+/* rgb(255, 5, 5) */
+  --ctp-text: 255, 200, 200; /* main text */
+/* rgb(255, 200, 200) */
+  --ctp-overlay2: 199, 0, 0; /* dark calendar text */
+/* rgb(199, 0, 0) */
+  --ctp-surface0: 50, 0, 0; /* lines and borders */
+/* rgb(50, 0, 0) */
+  --ctp-base: 10, 0, 0; /* main background */
+/* rgb(10, 0, 0) */
+  --ctp-mantle: 10, 0, 0; /* sidebar background */
+/* rgb(10, 0, 0) */
+  --ctp-crust: 75, 0, 0; /* shadows, popups */
+/* rgb(75, 0, 0) */
+}

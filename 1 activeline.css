@@ -1,0 +1,31 @@
+/* Line numbers  */
+.cm-gutter.cm-lineNumbers {
+    font-size: 18px;
+    font-family: MonoLisa;
+    font-feature-settings: "zero" !important;
+    color: rgba(var(--ctp-accent), 0.4);
+}
+
+.cm-gutterElement::after {
+
+
+}
+
+/* Active Line */
+.cm-lineNumbers .cm-gutterElement.cm-active {  
+    color:  var(--color-accent) !important;
+    font-size: 18px;
+    font-weight: bold;
+    border-right: 3px solid var(--color-accent);
+    background-color: var(--tag-background);
+}
+
+.cm-active.cm-line {
+    color:  var(--color-accent) !important;
+    filter: brightness(1.2);
+    line-height: 26px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
+

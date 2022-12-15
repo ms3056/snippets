@@ -1,0 +1,93 @@
+.fc .fc-toolbar-title {
+    font-size: 1.3em;
+    width: 180px;
+    margin-right: 18px !important;
+/*    padding: 2px 2px !important;*/
+}
+
+/*.fc-timegrid-slot {
+    height: 2.0em !important;
+}
+
+.fc-timegrid-slot-minor {
+    height: 2.0em !important;
+}*/
+
+.fc-timeGridDay-button.fc-button.fc-button-primary.fc-button-active {
+    color: white !important;
+    font-size: 1.2em !important;
+}
+
+.fc-dayGridMonth-button.fc-button.fc-button-primary.fc-button-active {
+    color: white !important;
+    font-size: 1.2em !important;
+}
+
+.fc-timeGridWeek-button.fc-button.fc-button-primary.fc-button-active {
+    color: white !important;
+    font-size: 1.2em !important;
+}
+.fc-listWeek-button.fc-button.fc-button-primary.fc-button-active {
+    color: white !important;
+    font-size: 1.2em !important;
+}
+
+.fc-timegrid-event .fc-event-time {
+    font-size: 1.1em;
+}
+
+.fc-timegrid-event-short .fc-event-title {
+    font-size: 1.1em;
+}
+
+.fc-timegrid-event {
+    background-color: var(--color-accent) !important;
+}
+
+.fc-dayGridMonth-button.fc-button.fc-button-primary {
+    padding: 2px 2px !important;
+    font-size: 0.8em !important;
+}
+
+.fc-timeGridWeek-button.fc-button.fc-button-primary {
+    padding: 2px 2px !important;
+    font-size: 0.8em !important;
+}
+
+.fc-timeGridDay-button.fc-button.fc-button-primary {
+    padding: 2px 2px !important;
+    font-size: 0.8em !important;
+}
+
+.fc-listWeek-button.fc-button.fc-button-primary {
+    padding: 2px 2px !important;
+    font-size: 0.8em !important;
+}
+
+.fc-prev-button.fc-button.fc-button-primary {
+    padding: 2px 2px !important;
+    font-size: 0.8em !important;
+    background-color: var(--color-accent);
+    filter: brightness(1.1);
+}
+
+.fc-next-button.fc-button.fc-button-primary {
+    padding: 2px 2px !important;
+    font-size: 0.8em !important;
+    background-color: var(--color-accent);
+    filter: brightness(1.1);
+}
+
+.fc-today-button.fc-button.fc-button-primary {
+    padding: 2px 2px !important;
+    font-size: 1.0em !important;
+    font-variant: small-caps;
+    padding-right: 6px !important;
+    padding-left: 4px !important;
+    margin-left: 0px;
+    margin-right: -5px;
+    background-color: var(--color-accent);
+    filter: brightness(1.1);
+    color: white !important;
+    opacity: 1.0 !important;
+}
