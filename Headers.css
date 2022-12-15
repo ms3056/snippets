@@ -1,0 +1,60 @@
+.theme-dark {
+    --my-color: rgba(var(--ctp-accent), 0.3);
+}
+
+/* Header line */
+ .cm-editor .HyperMD-header-1::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, var(--color-accent), transparent);
+    left: 0;
+    filter: brightness(0.7);
+}
+
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient*/
+h1,
+.cm-header-1 {
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, var(--color-accent), var(--my-color));
+  filter: hue-rotate(5deg) brightness(145%);
+}
+
+h2,
+.cm-header-2 {
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, var(--color-accent), var(--my-color));
+  filter: hue-rotate(65deg) brightness(145%);
+}
+
+h3,
+.cm-header-3 {
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, var(--color-accent), var(--my-color));
+  filter: hue-rotate(130deg) brightness(145%);
+}
+
+h4,
+.cm-header-4 {
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, var(--color-accent), var(--my-color));
+  filter: hue-rotate(195deg) brightness(145%);
+}
+
+h5,
+.cm-header-5 {
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, var(--color-accent), var(--my-color));
+  filter: hue-rotate(255deg) brightness(145%);
+}

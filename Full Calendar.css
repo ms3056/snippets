@@ -1,3 +1,19 @@
+.timeline-container.svelte-ilz3jn.svelte-ilz3jn {
+    font-size: 20px;
+    padding-top: 2px;
+}
+
+.is-today.svelte-ilz3jn .timeline-day.svelte-ilz3jn {
+    border-color: var(--ctp-blue) !important;
+}
+
+.timeline-day.svelte-ilz3jn.svelte-ilz3jn {
+    border-radius: 10% !important;
+    line-height: 30px !important;
+    width: 32px !important;
+    height: 27px !important;
+}
+
 .fc .fc-toolbar-title {
     font-size: 1.3em;
     width: 180px;
