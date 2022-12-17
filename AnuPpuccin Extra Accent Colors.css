@@ -80,6 +80,8 @@ settings:
     color: var(--color-accent);
 }
 
+
+
 .theme-dark.anp-theme-ext-dark { /* .ctp-rosebox */
     --ctp-confetti: 212, 206, 77;
     /* rgb(212, 206, 77) */
