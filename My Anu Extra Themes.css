@@ -19,6 +19,9 @@ settings:
     -
             label: Reds
             value: ctp-reds-dark
+    -
+            label: U of M
+            value: ctp-uofm-dark
 */
 .style-settings-heading[data-id=anuppuccin-extra-themes] .setting-item-name, .style-settings-heading[data-id=anuppuccin-extra-themes] .setting-item-name {
     color: var(--color-accent);
@@ -26,7 +29,7 @@ settings:
 
 .inline-title {
   color: var(--color-accent);
-  filter: brightness(0.8) hue-rotate(45deg);
+/*  filter: brightness(0.8) hue-rotate(45deg);*/
 }
 
 .theme-dark.anp-theme-ext-dark.ctp-primary-dark {
@@ -156,4 +159,22 @@ settings:
 /* rgb(10, 0, 0) */
   --ctp-crust: 75, 0, 0; /* shadows, popups */
 /* rgb(75, 0, 0) */
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-uofm-dark {
+  --ctp-red: 255, 203, 5; /* filename */
+/* rgb(255, 203, 5) */
+  --ctp-text: 150, 179, 200; /* main text */
+/* rgb(150, 179, 200) */
+  --ctp-overlay2: 70, 110, 147/* dark calendar text */
+/* rgb(70, 110, 147) */
+  --ctp-surface0: 56, 96, 133; /* lines and borders */
+/* rgb(56, 96, 133) */
+  --ctp-base: 0, 9, 46; /* main background */
+/* rgb(0, 9, 46) */
+  --ctp-mantle: 0, 19, 56; /* sidebar background */
+/* rgb(0, 19, 56) */
+  --ctp-crust: 39, 79, 116; /* shadows, popups */
+/* rgb(39, 79, 116) */
+
 }

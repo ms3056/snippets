@@ -45,6 +45,9 @@ settings:
                 label: Lilac
                 value: ctp-accent-lilac
             -   
+                label: Maize
+                value: ctp-accent-maize
+            -   
                 label: Neon Blue
                 value: ctp-accent-neonblue
             -   
@@ -82,9 +85,11 @@ settings:
 
 
 
-.theme-dark.anp-theme-ext-dark { /* .ctp-rosebox */
+.theme-dark.anp-theme-ext-dark, .theme-light.anp-theme-ext-light { /* .ctp-rosebox */
     --ctp-confetti: 212, 206, 77;
     /* rgb(212, 206, 77) */
+    --ctp-maize: 255, 203, 5;
+    /* rgb(255, 203, 5) */
     --ctp-goldenrod: 178, 128, 7;
     /* rgb(178, 128, 7) */
     --ctp-emerald: 80, 200, 120;
@@ -126,167 +131,6 @@ settings:
     --ctp-tomato: 255, 99, 71;
     /* rgb(255, 99, 71) */
  }
-
-
-/* .theme-dark.anp-theme-ext-dark.ctp-royal-velvet {
-    --ctp-slime: 101,255,0;
-    --ctp-neonblue: 21,137,255;
-    --ctp-coralblue: 205, 225, 244;
-    --ctp-goldenrod: 178, 128, 7;
-    --ctp-cement: 123, 139, 136;
-    --ctp-tapestry: 189, 113, 130;
-    --ctp-confetti: 212, 206, 77;
-    --ctp-cinnabar: 213, 67, 56;
-    --ctp-denim: 22, 96, 178;
-    --ctp-trinidad: 204, 79, 38;
-    --ctp-emerald: 80, 200, 120;
-    --ctp-cornflower: 100, 149, 237;
-    --ctp-lilac: 200, 162, 200;
-    --ctp-steelblue: 70, 130, 180;
-    --ctp-slategray: 112, 128, 144;
-    --ctp-chocolate: 210, 105, 30;
-    --ctp-tomato: 255, 99, 71;
-}*/
-
- /*.theme-dark.anp-theme-ext-dark.ctp-rosepine-dark {
-    --ctp-slime: 101,255,0;
-    --ctp-neonblue: 21,137,255; 
-    --ctp-coralblue: 205, 225, 244;
-    --ctp-goldenrod: 178, 128, 7;
-    --ctp-cement: 123, 139, 136;
-    --ctp-tapestry: 189, 113, 130;
-    --ctp-confetti: 212, 206, 77;
-    --ctp-cinnabar: 213, 67, 56;
-    --ctp-denim: 22, 96, 178;
-    --ctp-trinidad: 204, 79, 38;
-    --ctp-emerald: 80, 200, 120;
-    --ctp-cornflower: 100, 149, 237;
-    --ctp-lilac: 200, 162, 200;
-    --ctp-steelblue: 70, 130, 180;
-    --ctp-slategray: 112, 128, 144;
-    --ctp-chocolate: 210, 105, 30;
-    --ctp-tomato: 255, 99, 71;
-}
-
-.theme-dark.anp-theme-ext-dark.ctp-atom-dark {
-    --ctp-slime: 101,255,0;
-    --ctp-neonblue: 21,137,255;
-    --ctp-coralblue: 205, 225, 244;
-    --ctp-goldenrod: 178, 128, 7;
-    --ctp-cement: 123, 139, 136;
-    --ctp-tapestry: 189, 113, 130;
-    --ctp-confetti: 212, 206, 77;
-    --ctp-cinnabar: 213, 67, 56;
-    --ctp-denim: 22, 96, 178;
-    --ctp-trinidad: 204, 79, 38;
-    --ctp-emerald: 80, 200, 120;
-    --ctp-cornflower: 100, 149, 237;
-    --ctp-lilac: 200, 162, 200;
-    --ctp-steelblue: 70, 130, 180;
-    --ctp-slategray: 112, 128, 144;
-    --ctp-chocolate: 210, 105, 30;
-    --ctp-tomato: 255, 99, 71;
-}
-
-.theme-dark.anp-theme-ext-dark.ctp-primary-dark {
-    --ctp-slime: 101,255,0;
-    --ctp-neonblue: 21,137,255;   
-    --ctp-coralblue: 205, 225, 244; 
-    --ctp-goldenrod: 178, 128, 7;
-    --ctp-cement: 123, 139, 136;
-    --ctp-tapestry: 189, 113, 130;
-    --ctp-confetti: 212, 206, 77;
-    --ctp-cinnabar: 213, 67, 56;
-    --ctp-denim: 22, 96, 178;
-    --ctp-trinidad: 204, 79, 38;
-    --ctp-emerald: 80, 200, 120;
-    --ctp-cornflower: 100, 149, 237;
-    --ctp-lilac: 200, 162, 200;
-    --ctp-steelblue: 70, 130, 180;
-    --ctp-slategray: 112, 128, 144;
-    --ctp-chocolate: 210, 105, 30;
-    --ctp-tomato: 255, 99, 71;
-}
-
-.theme-dark.anp-theme-ext-dark.ctp-gruvbox-dark {
-    --ctp-slime: 101,255,0;
-    --ctp-neonblue: 21,137,255;   
-    --ctp-coralblue: 205, 225, 244; 
-    --ctp-goldenrod: 178, 128, 7;
-    --ctp-cement: 123, 139, 136;
-    --ctp-tapestry: 189, 113, 130;
-    --ctp-confetti: 212, 206, 77;
-    --ctp-cinnabar: 213, 67, 56;
-    --ctp-denim: 22, 96, 178;
-    --ctp-trinidad: 204, 79, 38;
-    --ctp-emerald: 80, 200, 120;
-    --ctp-cornflower: 100, 149, 237;
-    --ctp-lilac: 200, 162, 200;
-    --ctp-steelblue: 70, 130, 180;
-    --ctp-slategray: 112, 128, 144;
-    --ctp-chocolate: 210, 105, 30;
-    --ctp-tomato: 255, 99, 71;
-}
-
-.theme-dark.anp-theme-ext-dark.ctp-dracula {
-    --ctp-slime: 101,255,0;
-    --ctp-neonblue: 21,137,255;   
-    --ctp-coralblue: 205, 225, 244; 
-    --ctp-goldenrod: 178, 128, 7;
-    --ctp-cement: 123, 139, 136;
-    --ctp-tapestry: 189, 113, 130;
-    --ctp-confetti: 212, 206, 77;
-    --ctp-cinnabar: 213, 67, 56;
-    --ctp-denim: 22, 96, 178;
-    --ctp-trinidad: 204, 79, 38;
-    --ctp-emerald: 80, 200, 120;
-    --ctp-cornflower: 100, 149, 237;
-    --ctp-lilac: 200, 162, 200;
-    --ctp-steelblue: 70, 130, 180;
-    --ctp-slategray: 112, 128, 144;
-    --ctp-chocolate: 210, 105, 30;
-    --ctp-tomato: 255, 99, 71;
-}
-
-.theme-dark.anp-theme-ext-dark.ctp-generic-dark {
-    --ctp-slime: 101,255,0;
-    --ctp-neonblue: 21,137,255;   
-    --ctp-coralblue: 205, 225, 244; 
-    --ctp-goldenrod: 178, 128, 7;
-    --ctp-cement: 123, 139, 136;
-    --ctp-tapestry: 189, 113, 130;
-    --ctp-confetti: 212, 206, 77;
-    --ctp-cinnabar: 213, 67, 56;
-    --ctp-denim: 22, 96, 178;
-    --ctp-trinidad: 204, 79, 38;
-    --ctp-emerald: 80, 200, 120;
-    --ctp-cornflower: 100, 149, 237;
-    --ctp-lilac: 200, 162, 200;
-    --ctp-steelblue: 70, 130, 180;
-    --ctp-slategray: 112, 128, 144;
-    --ctp-chocolate: 210, 105, 30;
-    --ctp-tomato: 255, 99, 71;
-}
-
-.theme-dark.anp-theme-ext-dark.ctp-coffee-dark {
-    --ctp-slime: 101,255,0;
-    --ctp-neonblue: 21,137,255;   
-    --ctp-coralblue: 205, 225, 244; 
-    --ctp-goldenrod: 178, 128, 7;
-    --ctp-cement: 123, 139, 136;
-    --ctp-tapestry: 189, 113, 130;
-    --ctp-confetti: 212, 206, 77;
-    --ctp-cinnabar: 213, 67, 56;
-    --ctp-denim: 22, 96, 178;
-    --ctp-trinidad: 204, 79, 38;
-    --ctp-emerald: 80, 200, 120;
-    --ctp-cornflower: 100, 149, 237;
-    --ctp-lilac: 200, 162, 200;
-    --ctp-steelblue: 70, 130, 180;
-    --ctp-slategray: 112, 128, 144;
-    --ctp-chocolate: 210, 105, 30;
-    --ctp-tomato: 255, 99, 71;
-}*/
 
 .anuppuccin-accent-toggle.ctp-accent-slime {
   --ctp-accent: var(--ctp-slime) !important;
@@ -370,4 +214,8 @@ settings:
 
 .anuppuccin-accent-toggle.ctp-accent-aliceblue {
   --ctp-accent: var(--ctp-aliceblue) !important;
+}
+
+.anuppuccin-accent-toggle.ctp-accent-maize {
+  --ctp-accent: var(--ctp-maize) !important;
 }

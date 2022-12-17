@@ -6,11 +6,6 @@
     color: rgba(var(--ctp-accent), 0.4);
 }
 
-.cm-gutterElement::after {
-
-
-}
-
 /* Active Line */
 .cm-lineNumbers .cm-gutterElement.cm-active {  
     color:  var(--color-accent) !important;

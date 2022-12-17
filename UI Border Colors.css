@@ -1,4 +1,7 @@
 /* Change color of all of the borders */
 body {
   --divider-color: rgba(var(--ctp-accent), 0.3);
+/*  --divider-color-hover: var(--ctp-accent) !important;
+  --divider-width: 2px;
+  --divider-width-hover: 5px;*/
 }
