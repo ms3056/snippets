@@ -1,18 +1,18 @@
-.timeline-container.svelte-ilz3jn.svelte-ilz3jn {
+/*.timeline-container.svelte-ilz3jn.svelte-ilz3jn {
     font-size: 20px;
     padding-top: 2px;
-}
+}*/
 
-.is-today.svelte-ilz3jn .timeline-day.svelte-ilz3jn {
-    border-color: var(--ctp-blue) !important;
-}
+/*.is-today.svelte-ilz3jn .timeline-day.svelte-ilz3jn {
+    border-color: var(--ctp-accent) !important;
+}*/
 
-.timeline-day.svelte-ilz3jn.svelte-ilz3jn {
+/*.timeline-day.svelte-ilz3jn.svelte-ilz3jn {
     border-radius: 10% !important;
     line-height: 30px !important;
     width: 32px !important;
     height: 27px !important;
-}
+}*/
 
 .fc .fc-toolbar-title {
     font-size: 1.3em;
@@ -83,15 +83,17 @@
 .fc-prev-button.fc-button.fc-button-primary {
     padding: 2px 2px !important;
     font-size: 0.8em !important;
+    color: white;
     background-color: var(--color-accent);
-    filter: brightness(1.1);
+/*    filter: brightness(1.1);*/
 }
 
 .fc-next-button.fc-button.fc-button-primary {
     padding: 2px 2px !important;
     font-size: 0.8em !important;
+    color: white;
     background-color: var(--color-accent);
-    filter: brightness(1.1);
+/*    filter: brightness(1.1);*/
 }
 
 .fc-today-button.fc-button.fc-button-primary {
@@ -103,7 +105,7 @@
     margin-left: 0px;
     margin-right: -5px;
     background-color: var(--color-accent);
-    filter: brightness(1.1);
+/*    filter: brightness(1.1);*/
     color: white !important;
     opacity: 1.0 !important;
 }

@@ -1,6 +1,6 @@
 /* Line numbers  */
 .cm-gutter.cm-lineNumbers {
-    font-size: 18px;
+    font-size: 1.5em;
     font-family: MonoLisa;
     font-feature-settings: "zero" !important;
     color: rgba(var(--ctp-accent), 0.4);
@@ -8,16 +8,16 @@
 
 /* Active Line */
 .cm-lineNumbers .cm-gutterElement.cm-active {  
-    color:  var(--color-accent) !important;
-    font-size: 18px;
+    color:  var(--ctp-accent) !important;
+    font-size: 1.1em;
     font-weight: bold;
-    border-right: 3px solid var(--color-accent);
-    background-color: var(--tag-background);
+    border-right: 3px solid rgba(var(--ctp-accent), 1.1);
+    background-color: rgba(var(--ctp-accent), 0.2);
 }
 
 .cm-active.cm-line {
-    color:  var(--color-accent) !important;
-    filter: brightness(1.2);
+    color:  var(--ctp-accent) !important;
+    filter: brightness(1.3);
     line-height: 26px !important;
     padding-top: 2px !important;
     padding-bottom: 2px !important;

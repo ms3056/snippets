@@ -1,10 +1,10 @@
 @charset "UTF-8";
 /* @settings
-name: AnuPpuccin Extra Colors
-id: anuppuccin-theme-extra
+name: TokyoMike-My Colors
+id: tokyomike-colors
 settings:
     - 
-        id: anuppuccin-theme-accents
+        id: TokyoMike-colors
         title: Theme accent
         description: Select your preferred accent
         type: class-select
@@ -79,13 +79,13 @@ settings:
                 value: ctp-accent-yellowgreen
 */        
 /*------------------Selecting Accents-------------------*/
-.style-settings-heading[data-id=anuppuccin-theme-extra] .setting-item-name, .style-settings-heading[data-id=anuppuccin-theme-settings-extra] .setting-item-name {
+.style-settings-heading[data-id=tokyomike-colors] .setting-item-name, .style-settings-heading[data-id=tokyomike-colors] .setting-item-name {
     color: var(--color-accent);
 }
 
 
 
-.theme-dark.anp-theme-ext-dark, .theme-light.anp-theme-ext-light { /* .ctp-rosebox */
+.theme-dark.anp-theme-ext-dark, .theme-light.anp-theme-ext-light { 
     --ctp-confetti: 212, 206, 77;
     /* rgb(212, 206, 77) */
     --ctp-maize: 255, 203, 5;
@@ -130,6 +130,12 @@ settings:
     /* rgb(213, 67, 56) */
     --ctp-tomato: 255, 99, 71;
     /* rgb(255, 99, 71) */
+
+    /* these are some minor colors to change hacking deep into the theme */   
+    --ctp-surface0: var(--ctp-accent); /* lines and borders */
+    --interactive-normal: rgba(var(--ctp-accent), 0.3);
+    --background-modifier-border: rgba(var(--ctp-accent), 0.3);
+    --divider-color: rgba(var(--ctp-accent), 0.3);
  }
 
 .anuppuccin-accent-toggle.ctp-accent-slime {

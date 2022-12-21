@@ -1,9 +1,9 @@
 /* @settings
-name: Extra Themes
-id: anuppuccin-extra-themes
+name: TokyoMike-More Themes
+id: TokyoMike-themes
 settings:
   - 
-    id: anuppuccin-extra
+    id: TokyoMike-themes
     title: Dark theme flavor
     description: Select your preferred dark mode flavor
     type: class-select
@@ -17,13 +17,16 @@ settings:
             label: Blues
             value: ctp-blues-dark
     -
+            label: Monokai
+            value: ctp-monokai-dark
+    -
             label: Reds
             value: ctp-reds-dark
     -
             label: U of M
             value: ctp-uofm-dark
 */
-.style-settings-heading[data-id=anuppuccin-extra-themes] .setting-item-name, .style-settings-heading[data-id=anuppuccin-extra-themes] .setting-item-name {
+.style-settings-heading[data-id=TokyoMike-themes] .setting-item-name, .style-settings-heading[data-id=TokyoMike-themes] .setting-item-name {
     color: var(--color-accent);
 }
 
@@ -31,6 +34,11 @@ settings:
   color: var(--color-accent);
 /*  filter: brightness(0.8) hue-rotate(45deg);*/
 }
+
+.status-bar {
+  font-size: 1.3em !important;
+}
+
 
 .theme-dark.anp-theme-ext-dark.ctp-primary-dark {
   --ctp-rosewater: 246, 206, 182;
@@ -147,8 +155,8 @@ settings:
 .theme-dark.anp-theme-ext-dark.ctp-reds-dark {
   --ctp-red: 200, 5, 5; /* filename */
 /* rgb(255, 5, 5) */
-  --ctp-text: 255, 200, 200; /* main text */
-/* rgb(255, 200, 200) */
+  --ctp-text: 255, 229, 235; /* main text */
+/* rgb(255, 229, 235) */
   --ctp-overlay2: 199, 0, 0; /* dark calendar text */
 /* rgb(199, 0, 0) */
   --ctp-surface0: 50, 0, 0; /* lines and borders */
@@ -166,7 +174,7 @@ settings:
 /* rgb(255, 203, 5) */
   --ctp-text: 150, 179, 200; /* main text */
 /* rgb(150, 179, 200) */
-  --ctp-overlay2: 70, 110, 147/* dark calendar text */
+  --ctp-overlay2: 70, 110, 147; /* dark calendar text */
 /* rgb(70, 110, 147) */
   --ctp-surface0: 56, 96, 133; /* lines and borders */
 /* rgb(56, 96, 133) */
@@ -177,4 +185,39 @@ settings:
   --ctp-crust: 39, 79, 116; /* shadows, popups */
 /* rgb(39, 79, 116) */
 
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-monokai-dark {
+/*      --dark0:  #2d2a2e;
+    --dark1:  #221f22;
+
+    --accent: #c1c0c0;
+
+    --plainwhite: white;
+
+    --light0: #d8dee9;
+    --light1: #e5e9f0;
+    --light2: #eceff4;
+
+    --red:    #ff6188;
+    --orange: #fc9867;
+    --yellow: #ebcb8b;
+    --green:  #a9dc76;
+    --blue:   #78dce8;
+    --purple: #ab9df2;*/
+
+  --ctp-red: 235, 203, 139; /* filename */
+/* rgb(235, 203, 139) */
+  --ctp-text: 150, 179, 200; /* main text */
+/* rgb(150, 179, 200) */
+  --ctp-overlay2: 252, 152, 103; /* dark calendar text */
+/* rgb(252, 152, 103) */
+
+/* rgb(39, 19, 141) */
+  --ctp-base: 34, 31, 34; /* main background */
+/* rgb(34, 31, 34) */
+  --ctp-mantle: 45, 42, 46; /* sidebar background */
+/* rgb(45, 42, 46) */
+  --ctp-crust: 45, 42, 46; /* shadows, popups and top bar */
+/* rgb(45, 42, 46) */
 }
