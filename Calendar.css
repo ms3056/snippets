@@ -1,0 +1,16 @@
+/* Today's Date */
+.is-selected.svelte-ilz3jn .timeline-day.svelte-ilz3jn {
+    border-style: solid;
+    border-color: var(--color-accent);
+    border-radius: 8px;
+    line-height: 30px;
+    font-weight: bolder !important;
+    font-size: 1.5em;
+}
+
+/* Today's Day */
+.is-selected.svelte-ilz3jn .timeline-day-of-week.svelte-ilz3jn {
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-top: -10px !important;
+}
