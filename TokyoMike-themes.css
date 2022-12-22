@@ -16,12 +16,17 @@ settings:
     -
             label: Blues
             value: ctp-blues-dark
+    -       label: Forest
+            value: ctp-forest-dark
     -
             label: Monokai
             value: ctp-monokai-dark
     -
             label: Reds
             value: ctp-reds-dark
+    -
+            label: Storm
+            value: ctp-storm-dark
     -
             label: U of M
             value: ctp-uofm-dark
@@ -212,12 +217,40 @@ settings:
 /* rgb(150, 179, 200) */
   --ctp-overlay2: 252, 152, 103; /* dark calendar text */
 /* rgb(252, 152, 103) */
-
-/* rgb(39, 19, 141) */
   --ctp-base: 34, 31, 34; /* main background */
 /* rgb(34, 31, 34) */
   --ctp-mantle: 45, 42, 46; /* sidebar background */
 /* rgb(45, 42, 46) */
   --ctp-crust: 45, 42, 46; /* shadows, popups and top bar */
 /* rgb(45, 42, 46) */
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-forest-dark {
+  --ctp-text: 138, 157, 160; /* main text */
+/* rgb(138, 157, 160) */
+  --ctp-mantle: 49, 64, 66; /* sidebar background */
+/* rgb(49, 64, 66) */
+  --ctp-base: 33, 43, 45; /* main background */
+/* rgb(33, 43, 45) */
+  --ctp-overlay2:124, 102, 114; /* dark calendar text */
+/* rgb(124, 102, 114) */
+  --ctp-crust: 60, 45, 57; /* shadows, popups and top bar */
+/* rgb(60, 45, 57) */
+  --ctp-red: 45, 33, 43; /* filename */
+/* rgb(45, 33, 43) */
+}
+
+.theme-dark.anp-theme-ext-dark.ctp-storm-dark {
+  --ctp-text: 178, 185, 207; /* main text */
+/* rgb(178, 185, 207) */
+  --ctp-mantle: 46, 53, 75; /* sidebar background */
+/* rgb(46, 53, 75) */
+  --ctp-base: 38, 44, 62; /* main background */
+ color: rgb(38, 44, 62) 
+  --ctp-overlay2: 72, 132, 122; /* dark calendar text */
+/* rgb(72, 132, 122) */
+  --ctp-crust: 65, 57, 86; /* shadows, popups and top bar */
+/* rgb(65, 57, 86) */
+  --ctp-red: 86, 119, 129; /* filename */
+/* rgb(86, 119, 129) */
 }
