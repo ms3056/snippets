@@ -10,6 +10,10 @@ Please also note that you use these snippets AT YOUR OWN RISK. I provide ZERO su
 
 Please feel free to use my work but attribute the fine people on the Obisidan Discord and Forums that have created it. 
 
+![image](https://user-images.githubusercontent.com/23712700/209304886-0244e5f1-3246-40a5-9ddc-95775c1ffa80.png)
+
+
+
 NOTE: currently the snippets work with DARK MODE. I do not use LIGHT MODE and do not intend to adjust the snippets accordingly. 
 
 
