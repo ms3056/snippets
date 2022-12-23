@@ -1,0 +1,68 @@
+.todoist-query-title {
+  display: inline;
+}
+
+.todoist-refresh-button {
+  display: inline;
+  float: right;
+  margin-left: 8px;
+  padding: 3px 10px;
+}
+
+.todoist-refresh-spin {
+  animation: spin 1s linear infinite;
+}
+
+.todoist-success{
+  border: 0px;
+  color: var(--color-accent);
+  font-weight: bolder;
+  font-size: 1.4em;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+.todoist-p1 > input[type="checkbox"] {
+  border: 1px solid #d24726;
+  background-color: rgba(210, 71, 38, 0.25);
+}
+
+.todoist-p2 > input[type="checkbox"] {
+  border: 1px solid #ffc471;
+  background-color: rgba(255, 196, 113, 0.25);
+}
+
+.todoist-p3 > input[type="checkbox"] {
+  border: 1px solid #5db2ff;
+  background-color: rgba(93, 178, 255, 0.25);
+}
+
+.todoist-p4 > input[type="checkbox"] {
+  border: 1px solid #777777;
+  background-color: rgba(119, 119, 119, 0.25);
+}
+
+.task-metadata {
+  margin-left: 17px;
+/*  font-size: small;*/
+  display: inline-flex;
+}
+
+.task-metadata > * {
+  margin-right: 45px;
+}
+
+.task-date.task-overdue {
+  color: #d24726;
+}
+
+.task-calendar-icon,
+.task-project-icon,
+.task-labels-icon {
+  vertical-align: middle;
+  height: 17px;
+  width: 17px;
+}
