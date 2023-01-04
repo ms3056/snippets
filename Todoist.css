@@ -1,5 +1,6 @@
 .todoist-query-title {
-  display: inline;
+/*  display: inline;*/
+/*  color: red !important;*/
 }
 
 .todoist-refresh-button {
@@ -14,10 +15,37 @@
 }
 
 .todoist-success{
-  border: 0px;
+  visibility: hidden;
+}
+
+.todoist-success::before {
+  visibility: visible;
+  content: "All Tasks Completed";
+  position: absolute;
+/*  white-space: pre-wrap;*/
+  text-align: center;
   color: var(--color-accent);
+  filter: brightness(1.4);
   font-weight: bolder;
-  font-size: 1.4em;
+  left: 50%;
+  margin-top: 10%;
+  font-size: 26px;
+  transform: translate(-50%, -80%)
+
+}
+
+
+.todoist-success::after {
+  visibility: visible;
+  content: "✔";
+  position: absolute;
+  text-align: center;
+  filter: brightness(1.4);
+  font-weight: bolder;
+  left: 50%;
+  margin-top: 15%;
+  font-size: 56px;
+  transform: translate(-50%, -70%)
 }
 
 @-webkit-keyframes spin {

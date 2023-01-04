@@ -31,6 +31,26 @@ settings:
             label: U of M
             value: ctp-uofm-dark
 */
+
+/* Hard coding this for activeline */
+.anp-current-line .markdown-source-view .cm-active.cm-line {
+    background-color: rgba(var(--ctp-accent), 0.05);
+}
+
+/* Hard coding this for activeline */
+.cm-active.cm-line {
+  color:  var(--ctp-accent) !important;
+  filter: brightness(1.3);
+}
+
+/* Highlighted gutter number - I like the border here*/
+.cm-lineNumbers .cm-gutterElement.cm-active {
+  border-right: 4px solid var(--interactive-accent);
+  font-weight: bold !important;
+  filter: brightness(1.3);
+}
+
+/* Theme stuff */
 .style-settings-heading[data-id=TokyoMike-themes] .setting-item-name, .style-settings-heading[data-id=TokyoMike-themes] .setting-item-name {
     color: var(--color-accent);
 }
@@ -40,10 +60,20 @@ settings:
 /*  filter: brightness(0.8) hue-rotate(45deg);*/
 }
 
+/* Status Bar */
 .status-bar {
   font-size: 1.3em !important;
 }
 
+/* Plugin Updater Icons */
+.plugin-update-tracker-icon svg {
+  height: 20px !important;
+}
+
+.plugin-update-tracker-icon > div {
+  height: 20px !important;
+  width: 20px !important;
+}
 
 .theme-dark.anp-theme-ext-dark.ctp-primary-dark {
   --ctp-rosewater: 246, 206, 182;

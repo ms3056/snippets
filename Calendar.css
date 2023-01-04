@@ -5,12 +5,50 @@
     border-radius: 8px;
     line-height: 30px;
     font-weight: bolder !important;
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 /* Today's Day */
 .is-selected.svelte-ilz3jn .timeline-day-of-week.svelte-ilz3jn {
     font-weight: bolder;
-    font-size: 1.5em;
+    font-size: 1.6em !important;
     margin-top: -10px !important;
 }
+
+
+.calendar {
+    font-family: MonoLisa;
+    font-feature-settings: "zero" !important;
+    font-size: 1.4em;
+}
+
+.calendar .day {
+    padding: 0 !important;
+}
+
+.calendar .day {
+    border: 2px solid transparent;
+}
+
+.calendar .day.today {
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--text-normal);
+}
+
+.calendar .day.has-note {
+    border: 2px dotted var(--color-accent);
+}
+
+.calendar .day.active {
+    border: 2px solid var(--text-normal);
+}
+
+.calendar .day .dot-container {
+    display: none;
+}
+
+#calendar-container {
+  --color-background-weekend: rgba(var(--ctp-accent), 0.1);
+}
+
