@@ -1,5 +1,5 @@
 .theme-dark {
-    --my-color: rgba(var(--ctp-accent), 0.3);
+    --my-color: rgba(var(--ctp-accent), 0.6);
 }
 
 /* Header line */
