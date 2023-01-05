@@ -20,3 +20,4 @@ NOTE: currently the snippets work with DARK MODE. I do not use LIGHT MODE and do
 Obsidian: https://obsidian.md/
 
 AnuPpuccin Theme: https://github.com/AnubisNekhet/AnuPpuccin
+If you like the AnuPpuuccin theme please buy the creator a coffee: https://www.buymeacoffee.com/anubisnekhet
